@@ -1,11 +1,145 @@
 @font-face {
-    font-family: 'Gilroy Thin';
-    src: url('Gilroy-Thin.eot');
-    src: url('Gilroy-Thin.eot?#iefix') format('embedded-opentype'),
-    url('Gilroy-Thin.woff') format('woff'),
-    url('Gilroy-Thin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-  
-      
+  font-family: "Gilroy Thin";
+  src: url("Gilroy-Thin.eot");
+  src: url("Gilroy-Thin.eot?#iefix") format("embedded-opentype"),
+    url("Gilroy-Thin.woff") format("woff"),
+    url("Gilroy-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  background: #191919;
+}
+header,
+a {
+  display: flex;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+.logo {
+  display: flex;
+  width: 130px;
+  height: 16px;
+  padding-top: 66px;
+  padding-left: 130px;
+}
+.navigation {
+  display: flex;
+  width: 653px;
+  height: 20px;
+  gap: 77px;
+  padding-top: 45px;
+  padding-left: 850px;
+  color: #ffffffcc;
+  font-family: "Gilroy Thin";
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-1 {
+  margin-left: 130px;
+  width: 1595px;
+  height: 691px;
+  padding-left: 130px;
+  padding-top: 153px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.card1-txt-1 {
+  position: absolute;
+  width: 321px;
+  height: 116px;
+  left: 130px;
+  right: 959px;
+  top: 153px;
+  bottom: 333px;
+  color: #ffffffcc;
+  font-family: "Gilroy Thin";
+  font-size: 16px;
+  font-weight: 400;
+}
+.img-card-1 {
+  position: absolute;
+  left: 1160px;
+  top: 157px;
+}
+.h1-card1 {
+  position: absolute;
+  width: 674px;
+  height: 148px;
+  left: 240px;
+  right: -190px;
+  top: 303px;
+  bottom: -209px;
+  color: #e7e7e7;
+  font-family: "Gilroy Thin";
+  font-size: 74px;
+  font-weight: 600;
+}
+.card-btn-1 {
+  position: absolute;
+  width: 400px;
+  height: 68px;
+  left: 240px;
+  top: 597px;
+  background: rgb(223, 61, 58);
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Gilroy Thin";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+.card-2 {
+  border: dashed red;
+  position: absolute;
+  width: 1405px;
+  height: 616px;
+  left: 0;
+  right: 190px;
+  top: 925px;
+}
+.h1-card2 {
+  width: 464px;
+  height: 130px;
+  padding-left: 1160px;
+  right: 46px;
+  top: 925px;
+  color: rgb(231, 231, 231);
+  font-family: "Gilroy Thin";
+  font-size: 54px;
+  font-weight: 600;
+}
+.h2-card2 {
+  width: 412px;
+  height: 33px;
+  padding-left: 1160px;
+  right: -642px;
+  top: 1105px;
+  color: rgb(231, 231, 231);
+  font-family: "Gilroy Thin";
+  font-size: 28px;
+  font-weight: 600;
+}
+.card2-txt-1 {
+  width: 510px;
+  height: 145px;
+  padding-left: 1160px;
+  top: 1158px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Gilroy Thin";
+  font-size: 20px;
+  font-weight: 400;
+}
+.img-card-2 {
+  position: absolute;
+  width: 590px;
+  height: 616px;
+  left: 0;
+  right: 660px;
+  top: 925px;
+  bottom: -925px;
+}
